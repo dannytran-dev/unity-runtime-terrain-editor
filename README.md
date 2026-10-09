@@ -4,16 +4,27 @@ A Unity 6 system that lets players sculpt, paint and plant terrain while the gam
 or a whole grid of terrain tiles, with undo/redo, save files and tiles that can be added while you play. Drop one
 prefab into a scene and press Play.
 
-**[Play the demo in your browser](https://dannytran-dev.github.io/UnityRuntimeTerrainEditor/)** (desktop browser
+**[Play the demo in your browser](https://dannytran-dev.github.io/unity-runtime-terrain-editor/)** (desktop browser
 with WebGL 2).
 
-[![Play the web demo](https://img.shields.io/badge/Demo-Play%20in%20browser-orange)](https://dannytran-dev.github.io/UnityRuntimeTerrainEditor/)
+[![Play the web demo](https://img.shields.io/badge/Demo-Play%20in%20browser-orange)](https://dannytran-dev.github.io/unity-runtime-terrain-editor/)
 ![Unity 6000.3](https://img.shields.io/badge/Unity-6000.3-black?logo=unity)
 ![URP](https://img.shields.io/badge/Render%20Pipeline-URP-blue)
 ![Input System](https://img.shields.io/badge/Input-Input%20System-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-![The demo scene: a terrain sculpted, painted and planted at runtime, with the editor UI on the left](Docs/Images/editor-overview.jpg)
+![Sculpting at runtime: raising a ridge and a peak, carving a valley with Shift and stamping a mesa](Docs/Images/sculpt.gif)
+
+<table>
+  <tr>
+    <td><img src="Docs/Images/paint.gif" alt="Painting grass, dirt and cobblestone, then planting a pine forest and scattered trees"></td>
+    <td><img src="Docs/Images/tiles.gif" alt="Adding three tiles with the plus markers, then sculpting one ridge across all four"></td>
+  </tr>
+  <tr>
+    <td align="center">Paint textures, then plant forests</td>
+    <td align="center">Grow the map with tiles and sculpt across them</td>
+  </tr>
+</table>
 
 ## Features
 
@@ -36,7 +47,7 @@ with WebGL 2).
 
 ## Try it
 
-The quickest way is the [web demo](https://dannytran-dev.github.io/UnityRuntimeTerrainEditor/). In the browser, use the
+The quickest way is the [web demo](https://dannytran-dev.github.io/unity-runtime-terrain-editor/). In the browser, use the
 Save and Load buttons in the panel, since F5 reloads the page.
 
 To open it in Unity:
@@ -45,6 +56,8 @@ To open it in Unity:
 2. Open `Assets/RuntimeTerrainEditor/Demo/Scenes/RuntimeTerrainEditorDemo.unity` and press Play.
 
 The panel on the left switches between the Terrain, Paint, Foliage and Tiles tools, and holds Save and Load.
+
+![The demo scene: a terrain sculpted, painted and planted at runtime, with the editor UI on the left](Docs/Images/editor-overview.jpg)
 
 | Action | Control |
 |---|---|
